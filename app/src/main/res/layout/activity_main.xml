@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="200px"
+        android:layout_marginTop="200px"
+        android:layout_marginEnd="200px"
+        android:layout_marginBottom="200px"
+        android:text="Personal Finance App"
+        android:fontFamily="sans-serif"
+        android:textSize="100px"
+        android:textAlignment="center"
+        android:backgroundTint="@color/black"
+        app:circularflow_viewCenter="true"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <EditText
+        android:id="@+id/textPromptUsername"
+        android:hint="Username"
+
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/textPromptPassword"
+        android:hint="Password"
+        android:height="50px"
+        android:layout_below="@+id/textPromptUsername"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textPromptPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20px"
+        android:layout_marginTop="40px"
+        android:layout_marginEnd="20px"
+        android:layout_marginBottom="20px"
+        android:text="Log In" />
+
+    <Button
+        android:id="@+id/buttonLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonLogIn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20px"
+        android:layout_marginTop="20px"
+        android:layout_marginEnd="20px"
+        android:layout_marginBottom="20px"
+        android:text="Local" />
+
+
+
+
+
+</RelativeLayout>
