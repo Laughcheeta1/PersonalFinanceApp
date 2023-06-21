@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTransaction">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="@string/enter_instant_n_expense"
+        android:textSize="40sp" />
+    <TextView
+        android:id="@+id/QuantityTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="70dp"
+        android:layout_alignStart="@id/title"
+        android:text="@string/quantity"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:id="@+id/Quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_alignEnd="@id/title"
+        android:layout_marginTop="70dp"
+        android:hint="@string/enter_quantity"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:id="@+id/TypeTittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/QuantityTitle"
+        android:layout_alignStart="@id/title"
+        android:layout_marginTop="40dp"
+        android:text="@string/type"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/MoneySourceTittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TypeTittle"
+        android:layout_alignStart="@id/title"
+        android:layout_marginTop="40dp"
+        android:text="Money Source:"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/ConfirmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MoneySourceTittle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="@string/confirm"
+        />
+
+
+
+</RelativeLayout>
