@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">PersonalFinanceApp</string>
+    <string name="_190_000">190.000</string>
+    <string name="total_money_spent">Total Money Spent</string>
+    <string name="_30_000">30.000</string>
+    <string name="money_spent_today">Money Spent Today</string>
+    <string name="_5_000">5.000</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="available_money">Available Money</string>
 </resources>
